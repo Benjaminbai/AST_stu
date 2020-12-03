@@ -1,0 +1,29 @@
+{
+  "name": "ast_stu",
+  "version": "0.1.0",
+  "description": "改写源码中的函数成exports.xxx的形式",
+  "main": "exportific.js",
+  "bin": {
+    "exportific": "./exportific.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjaminbai/AST_stu.git"
+  },
+  "keywords": [
+    "AST",
+    "javascript"
+  ],
+  "author": "Benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benjaminbai/AST_stu/issues"
+  },
+  "homepage": "https://github.com/Benjaminbai/AST_stu#readme",
+  "dependencies": {
+    "recast": "^0.20.4"
+  }
+}
